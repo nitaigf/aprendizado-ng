@@ -36,8 +36,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - [x] [Component composition](https://github.com/nitaigf/aprendizado-ng/tree/1703febe3e6b9eb2c5276d535006d17606fa8b66)
 - [x] [Control flow in components - @if](https://github.com/nitaigf/aprendizado-ng/tree/1e9e31ee4de2e5d4705965e4ac9ae0aa4f9d1076)
 - [x] [Control flow - @for](https://github.com/nitaigf/aprendizado-ng/tree/98924488ff7d027bf8b594032581c15bab8a4130)
-- [x] [Property Binding]()
-- [ ] Event handling
+- [x] [Property Binding](https://github.com/nitaigf/aprendizado-ng/tree/8adf7bf5aef25198e2811291768a369fe37f106d)
+- [x] [Event handling]()
 - [ ] Communicating with @Input
 - [ ] Communicating with @Output
 - [ ] Deferrable views

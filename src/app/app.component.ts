@@ -23,4 +23,9 @@ export class AppComponent {
   ];
   // Property binding
   isEditable = true;
+  // Event handling
+  message = '';
+  onMouseOver() {
+    this.message = 'Way to go 🚀';
+  }
 }

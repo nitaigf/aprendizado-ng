@@ -29,5 +29,11 @@
 <!-- Property binding - https://angular.dev/tutorials/learn-angular/6-property-binding -->
 <div [contentEditable]="isEditable"></div>
 <hr>
+<!-- Event handling - https://angular.dev/tutorials/learn-angular/7-event-handling -->
+<section (mouseover)="onMouseOver()">
+  There's a secret message for you, hover to reveal:
+  {{ message }}
+</section>
+<hr>
 <!-- initial commit -->
 <router-outlet />
