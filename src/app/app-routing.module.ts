@@ -15,6 +15,7 @@ import { Lesson08Component } from './lesson08/lesson08.component';
 import { Lesson09Component } from './lesson09/lesson09.component';
 import { Lesson10Component } from './lesson10/lesson10.component';
 import { Lesson11Component } from './lesson11/lesson11.component';
+import { Lesson15Component } from './lesson15/lesson15.component';
 
 // Enabling routing - https://angular.dev/tutorials/learn-angular/12-enable-routing
 const routes: Routes = [
@@ -107,6 +108,13 @@ const routes: Routes = [
     title: 'Lesson 11 - Optimizing images',
     data: { title: 'Lesson 11 - Optimizing images', lessonUrl: 'https://angular.dev/tutorials/learn-angular/11-optimizing-images' },
     component: Lesson11Component,
+  },
+  // Forms - https://angular.dev/tutorials/learn-angular/15-forms
+  {
+    path: 'lesson15',
+    title: 'Lesson 15 - Forms',
+    data: { title: 'Lesson 15 - Forms', lessonUrl: 'https://angular.dev/tutorials/learn-angular/15-forms' },
+    component: Lesson15Component,
   },
   // -- COMPONENTS
   // {

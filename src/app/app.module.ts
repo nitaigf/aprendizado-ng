@@ -20,6 +20,8 @@ import { Lesson09Component } from './lesson09/lesson09.component';
 import { Lesson10Component } from './lesson10/lesson10.component';
 import { Lesson11Component } from './lesson11/lesson11.component';
 import { NavComponent } from './nav/nav.component';
+import { FormsModule } from '@angular/forms';
+import { Lesson15Component } from './lesson15/lesson15.component';
 
 @NgModule({
   declarations: [
@@ -53,12 +55,17 @@ import { NavComponent } from './nav/nav.component';
     // Define a route - https://angular.dev/tutorials/learn-angular/13-define-a-route
     HomeComponent,
     NavComponent,
+    // Forms - https://angular.dev/tutorials/learn-angular/15-forms
+    Lesson15Component,
   ],
   imports: [
     BrowserModule,
     // Enabling routing - https://angular.dev/tutorials/learn-angular/12-enable-routing
     AppRoutingModule,
+    // Optimizing images - https://angular.dev/tutorials/learn-angular/11-optimizing-images
     NgOptimizedImage,
+    // Forms - https://angular.dev/tutorials/learn-angular/15-forms
+    FormsModule
   ],
   providers: [
     provideClientHydration(),
