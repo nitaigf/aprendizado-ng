@@ -40,8 +40,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - [x] [Event handling](https://github.com/nitaigf/aprendizado-ng/tree/20405e83da37ea4989502f54d84b7787b0fefe13)
 - [x] [Communicating with @Input](https://github.com/nitaigf/aprendizado-ng/tree/b1cd4591100a4dbb1cdd328c337e95566d8be4d0)
 - [x] [Communicating with @Output](https://github.com/nitaigf/aprendizado-ng/tree/140ecdd8e85249440e85dc999a0f4063b0507c34)
-- [x] [Deferrable views]()
-- [ ] Optimizing images
+- [x] [Deferrable views](https://github.com/nitaigf/aprendizado-ng/tree/3f0a5ac058e43b3185f6fa30a161c08ba4629a65)
+- [x] [Optimizing images]()
 - [ ] Enabling routing
 - [ ] Define a route
 - [ ] Link to a route with RouterLink

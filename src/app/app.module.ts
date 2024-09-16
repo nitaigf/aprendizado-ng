@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { ChildComponent } from './child/child.component';
 import { CommentsComponent } from './comments/comments.component';
+import { NgOptimizedImage, provideImgixLoader } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -16,10 +17,12 @@ import { CommentsComponent } from './comments/comments.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgOptimizedImage,
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    // provideImgixLoader('http://localhost:4200/')
   ],
   bootstrap: [AppComponent]
 })
