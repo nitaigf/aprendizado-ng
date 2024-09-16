@@ -28,4 +28,5 @@ export class AppComponent {
   onMouseOver() {
     this.message = 'Way to go 🚀';
   }
+  // Communicating with @Input (interação com o component user)
 }
