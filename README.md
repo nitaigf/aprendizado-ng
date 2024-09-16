@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ---
 
-## Roadmap - v.0.0.13
+## Roadmap - v.0.0.14
 
 - [x] [Introduction](https://github.com/nitaigf/aprendizado-ng/tree/e4a652a224baf26f0e719ba1793853d5839e0151) - v.0.0.0
 - [x] [Anatomy of a Component](https://github.com/nitaigf/aprendizado-ng/tree/17c5353e8cdf7ffd19bfd7821186ccd9aeed6115) - v.0.0.1
@@ -43,8 +43,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - [x] [Deferrable views](https://github.com/nitaigf/aprendizado-ng/tree/3f0a5ac058e43b3185f6fa30a161c08ba4629a65) - v.0.0.10
 - [x] [Optimizing images](https://github.com/nitaigf/aprendizado-ng/tree/aa61118e6f1635890e4fd8bc4d126a97bc9cd9d4) - v.0.0.11
 - [x] [Enabling routing](https://github.com/nitaigf/aprendizado-ng/tree/c51fb767b7e956e4683c471403644967144c6a72) - v.0.0.12
-- [x] [Define a route]() - v.0.0.13
-- [ ] [Link to a route with RouterLink]() - v.0.0.14
+- [x] [Define a route](https://github.com/nitaigf/aprendizado-ng/tree/ea5419102aa097a792a0b6b0c93f51322a0e09bf) - v.0.0.13
+- [x] [Link to a route with RouterLink]() - v.0.0.14
 - [ ] [Forms]() - v.0.0.15
 - [ ] [Getting form control values]() - v.0.0.16
 - [ ] [Reactive forms]() - v.0.0.17

@@ -27,7 +27,7 @@ const routes: Routes = [
   {
     path: 'home',
     title: 'App Home Page',
-    data: { title: 'App Home Page', comment: 'Essa página é o resultado da reorganização do código-fonte feito após as liçoes 12 e 13' },
+    data: { title: 'App Home Page', comment: 'Essa página e o componente nav são o resultado da reorganização do código-fonte feito após as liçoes 12 e 13, juntamente com o ajuste para uso do RouterLink da lição 14.' },
     component: HomeComponent,
   },
   // -- LESSONS
