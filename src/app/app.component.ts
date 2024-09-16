@@ -34,4 +34,5 @@ export class AppComponent {
   addItem(item: string) {
     this.items.push(item);
   }
+  // Deferrable views (interação com o component comments)
 }

@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { ChildComponent } from './child/child.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
-    ChildComponent
+    ChildComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,
