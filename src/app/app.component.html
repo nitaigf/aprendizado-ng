@@ -37,5 +37,8 @@
 <hr>
 <!-- Communicating with @Input - https://angular.dev/tutorials/learn-angular/8-input -->
 <app-user name="Simran" />
+<!-- Communicating with @Output - https://angular.dev/tutorials/learn-angular/9-output -->
+<app-child (addItemEvent)="addItem($event)" />
+<p>🐢 all the way down {{ items.length }}</p>
 <!-- initial commit -->
 <router-outlet />

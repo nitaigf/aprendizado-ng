@@ -29,4 +29,9 @@ export class AppComponent {
     this.message = 'Way to go 🚀';
   }
   // Communicating with @Input (interação com o component user)
+  // Communicating with @Output (interação com o component child)
+  items = new Array();
+  addItem(item: string) {
+    this.items.push(item);
+  }
 }
