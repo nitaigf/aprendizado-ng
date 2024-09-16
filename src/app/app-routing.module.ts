@@ -36,84 +36,84 @@ const routes: Routes = [
   {
     path: 'lesson01',
     title: 'Lesson 1 - Anatomy of a Component',
-    data: { title: 'Lesson 1 - Anatomy of a Component', lessonUrl: 'https://angular.dev/tutorials/learn-angular/1-components-in-angular' },
+    data: { title: 'Lesson 1 - Anatomy of a Component', lessonUrls: ['https://angular.dev/tutorials/learn-angular/1-components-in-angular'] },
     component: Lesson01Component,
   },
   // Updating the component - https://angular.dev/tutorials/learn-angular/2-updating-the-component-class
   {
     path: 'lesson02',
     title: 'Lesson 2 - Updating the component',
-    data: { title: 'Lesson 2 - Updating the component class', lessonUrl: 'https://angular.dev/tutorials/learn-angular/2-updating-the-component-class' },
+    data: { title: 'Lesson 2 - Updating the component class', lessonUrls: ['https://angular.dev/tutorials/learn-angular/2-updating-the-component-class'] },
     component: Lesson02Component,
   },
   // Component composition - https://angular.dev/tutorials/learn-angular/3-composing-components
   {
     path: 'lesson03',
     title: 'Lesson 3 - Component composition',
-    data: { title: 'Lesson 3 - Component composition', lessonUrl: 'https://angular.dev/tutorials/learn-angular/3-composing-components' },
+    data: { title: 'Lesson 3 - Component composition', lessonUrls: ['https://angular.dev/tutorials/learn-angular/3-composing-components'] },
     component: Lesson03Component,
   },
   // Control flow in components - @if - https://angular.dev/tutorials/learn-angular/4-control-flow-if
   {
     path: 'lesson04',
     title: 'Lesson 4 - Control flow in components - @if',
-    data: { title: 'Lesson 4 - Control flow in components - @if', lessonUrl: 'https://angular.dev/tutorials/learn-angular/4-control-flow-if' },
+    data: { title: 'Lesson 4 - Control flow in components - @if', lessonUrls: ['https://angular.dev/tutorials/learn-angular/4-control-flow-if'] },
     component: Lesson04Component,
   },
   // Control flow - @for - https://angular.dev/tutorials/learn-angular/5-control-flow-for
   {
     path: 'lesson05',
     title: 'Lesson 5 - Control flow - @for',
-    data: { title: 'Lesson 5 - Control flow - @for', lessonUrl: 'https://angular.dev/tutorials/learn-angular/5-control-flow-for' },
+    data: { title: 'Lesson 5 - Control flow - @for', lessonUrls: ['https://angular.dev/tutorials/learn-angular/5-control-flow-for'] },
     component: Lesson05Component,
   },
   // Property binding - https://angular.dev/tutorials/learn-angular/6-property-binding
   {
     path: 'lesson06',
     title: 'Lesson 6 - Property binding',
-    data: { title: 'Lesson 6 - Property binding', lessonUrl: 'https://angular.dev/tutorials/learn-angular/6-property-binding' },
+    data: { title: 'Lesson 6 - Property binding', lessonUrls: ['https://angular.dev/tutorials/learn-angular/6-property-binding'] },
     component: Lesson06Component,
   },
   // Event handling - https://angular.dev/tutorials/learn-angular/7-event-handling
   {
     path: 'lesson07',
     title: 'Lesson 7 - Event handling',
-    data: { title: 'Lesson 7 - Event handling', lessonUrl: 'https://angular.dev/tutorials/learn-angular/7-event-handling' },
+    data: { title: 'Lesson 7 - Event handling', lessonUrls: ['https://angular.dev/tutorials/learn-angular/7-event-handling'] },
     component: Lesson07Component,
   },
   // Communicating with @input - https://angular.dev/tutorials/learn-angular/8-input
   {
     path: 'lesson08',
     title: 'Lesson 8 - Communicating with @input',
-    data: { title: 'Lesson 8 - Communicating with @input', lessonUrl: 'https://angular.dev/tutorials/learn-angular/8-input' },
+    data: { title: 'Lesson 8 - Communicating with @input', lessonUrls: ['https://angular.dev/tutorials/learn-angular/8-input'] },
     component: Lesson08Component,
   },
   // Communicating with @output - https://angular.dev/tutorials/learn-angular/9-output
   {
     path: 'lesson09',
     title: 'Lesson 9 - Communicating with @output',
-    data: { title: 'Lesson 9 - Communicating with @output', lessonUrl: 'https://angular.dev/tutorials/learn-angular/9-output' },
+    data: { title: 'Lesson 9 - Communicating with @output', lessonUrls: ['https://angular.dev/tutorials/learn-angular/9-output'] },
     component: Lesson09Component,
   },
   // Deferrable views - https://angular.dev/tutorials/learn-angular/10-deferrable-views
   {
     path: 'lesson10',
     title: 'Lesson 10 - Deferrable views',
-    data: { title: 'Lesson 10 - Deferrable views', lessonUrl: 'https://angular.dev/tutorials/learn-angular/10-deferrable-views' },
+    data: { title: 'Lesson 10 - Deferrable views', lessonUrls: ['https://angular.dev/tutorials/learn-angular/10-deferrable-views'] },
     component: Lesson10Component,
   },
   // Optimizing images - https://angular.dev/tutorials/learn-angular/11-optimizing-images
   {
     path: 'lesson11',
     title: 'Lesson 11 - Optimizing images',
-    data: { title: 'Lesson 11 - Optimizing images', lessonUrl: 'https://angular.dev/tutorials/learn-angular/11-optimizing-images' },
+    data: { title: 'Lesson 11 - Optimizing images', lessonUrls: ['https://angular.dev/tutorials/learn-angular/11-optimizing-images'] },
     component: Lesson11Component,
   },
   // Forms - https://angular.dev/tutorials/learn-angular/15-forms
   {
     path: 'lesson15',
-    title: 'Lesson 15 - Forms',
-    data: { title: 'Lesson 15 - Forms', lessonUrl: 'https://angular.dev/tutorials/learn-angular/15-forms' },
+    title: 'Lesson 15/16 - Forms',
+    data: { title: 'Lesson 15/16 - Forms', lessonUrls: ['https://angular.dev/tutorials/learn-angular/15-forms', 'https://angular.dev/tutorials/learn-angular/16-form-control-values'], comment: 'Esta página é o resultado das lições 15 e 16' },
     component: Lesson15Component,
   },
   // -- COMPONENTS
