@@ -28,31 +28,31 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ---
 
-## Roadmap - v.0.0.1
+## Roadmap - v.0.0.12
 
-- [x] [Introduction](https://github.com/nitaigf/aprendizado-ng/tree/e4a652a224baf26f0e719ba1793853d5839e0151)
-- [x] [Anatomy of a Component](https://github.com/nitaigf/aprendizado-ng/tree/17c5353e8cdf7ffd19bfd7821186ccd9aeed6115)
-- [x] [Updating the component](https://github.com/nitaigf/aprendizado-ng/tree/38385e9c54723fa458eec3c6afb47c489f6dcba0)
-- [x] [Component composition](https://github.com/nitaigf/aprendizado-ng/tree/1703febe3e6b9eb2c5276d535006d17606fa8b66)
-- [x] [Control flow in components - @if](https://github.com/nitaigf/aprendizado-ng/tree/1e9e31ee4de2e5d4705965e4ac9ae0aa4f9d1076)
-- [x] [Control flow - @for](https://github.com/nitaigf/aprendizado-ng/tree/98924488ff7d027bf8b594032581c15bab8a4130)
-- [x] [Property Binding](https://github.com/nitaigf/aprendizado-ng/tree/8adf7bf5aef25198e2811291768a369fe37f106d)
-- [x] [Event handling](https://github.com/nitaigf/aprendizado-ng/tree/20405e83da37ea4989502f54d84b7787b0fefe13)
-- [x] [Communicating with @Input](https://github.com/nitaigf/aprendizado-ng/tree/b1cd4591100a4dbb1cdd328c337e95566d8be4d0)
-- [x] [Communicating with @Output](https://github.com/nitaigf/aprendizado-ng/tree/140ecdd8e85249440e85dc999a0f4063b0507c34)
-- [x] [Deferrable views](https://github.com/nitaigf/aprendizado-ng/tree/3f0a5ac058e43b3185f6fa30a161c08ba4629a65)
-- [x] [Optimizing images]()
-- [ ] Enabling routing
-- [ ] Define a route
-- [ ] Link to a route with RouterLink
-- [ ] Forms
-- [ ] Getting form control values
-- [ ] Reactive forms
-- [ ] Validating forms
-- [ ] Creating an injectable service
-- [ ] Inject-based dependency injection
-- [ ] Constructor-based dependency injection
-- [ ] Pipes
-- [ ] Formatting data with pipes
-- [ ] Create a pipe
-- [ ] Next steps
+- [x] [Introduction](https://github.com/nitaigf/aprendizado-ng/tree/e4a652a224baf26f0e719ba1793853d5839e0151) - v.0.0.0
+- [x] [Anatomy of a Component](https://github.com/nitaigf/aprendizado-ng/tree/17c5353e8cdf7ffd19bfd7821186ccd9aeed6115) - v.0.0.1
+- [x] [Updating the component](https://github.com/nitaigf/aprendizado-ng/tree/38385e9c54723fa458eec3c6afb47c489f6dcba0) - v.0.0.2
+- [x] [Component composition](https://github.com/nitaigf/aprendizado-ng/tree/1703febe3e6b9eb2c5276d535006d17606fa8b66) - v.0.0.3
+- [x] [Control flow in components - @if](https://github.com/nitaigf/aprendizado-ng/tree/1e9e31ee4de2e5d4705965e4ac9ae0aa4f9d1076) - v.0.0.4
+- [x] [Control flow - @for](https://github.com/nitaigf/aprendizado-ng/tree/98924488ff7d027bf8b594032581c15bab8a4130) - v.0.0.5
+- [x] [Property Binding](https://github.com/nitaigf/aprendizado-ng/tree/8adf7bf5aef25198e2811291768a369fe37f106d) - v.0.0.6
+- [x] [Event handling](https://github.com/nitaigf/aprendizado-ng/tree/20405e83da37ea4989502f54d84b7787b0fefe13) - v.0.0.7
+- [x] [Communicating with @Input](https://github.com/nitaigf/aprendizado-ng/tree/b1cd4591100a4dbb1cdd328c337e95566d8be4d0) - v.0.0.8
+- [x] [Communicating with @Output](https://github.com/nitaigf/aprendizado-ng/tree/140ecdd8e85249440e85dc999a0f4063b0507c34) - v.0.0.9
+- [x] [Deferrable views](https://github.com/nitaigf/aprendizado-ng/tree/3f0a5ac058e43b3185f6fa30a161c08ba4629a65) - v.0.0.10
+- [x] [Optimizing images](https://github.com/nitaigf/aprendizado-ng/tree/aa61118e6f1635890e4fd8bc4d126a97bc9cd9d4) - v.0.0.11
+- [x] [Enabling routing]() - v.0.0.12
+- [ ] [Define a route]() - v.0.0.13
+- [ ] [Link to a route with RouterLink]() - v.0.0.14
+- [ ] [Forms]() - v.0.0.15
+- [ ] [Getting form control values]() - v.0.0.16
+- [ ] [Reactive forms]() - v.0.0.17
+- [ ] [Validating forms]() - v.0.0.18
+- [ ] [Creating an injectable service]() - v.0.0.19
+- [ ] [Inject-based dependency injection]() - v.0.0.20
+- [ ] [Constructor-based dependency injection]() - v.0.0.21
+- [ ] [Pipes]() - v.0.0.22
+- [ ] [Formatting data with pipes]() - v.0.0.23
+- [ ] [Create a pipe]() - v.0.0.24
+- [ ] [Next steps]() - v.0.0.25

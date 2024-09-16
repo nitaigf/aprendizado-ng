@@ -7,6 +7,7 @@ import { UserComponent } from './user/user.component';
 import { ChildComponent } from './child/child.component';
 import { CommentsComponent } from './comments/comments.component';
 import { NgOptimizedImage, provideImgixLoader } from '@angular/common';
+import { provideRouter } from '@angular/router';
 
 @NgModule({
   declarations: [

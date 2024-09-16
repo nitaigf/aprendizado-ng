@@ -38,9 +38,11 @@
 <!-- Communicating with @Input - https://angular.dev/tutorials/learn-angular/8-input -->
 <!-- Optimizing images - https://angular.dev/tutorials/learn-angular/11-optimizing-images -->
 <app-user name="Simran" />
+<hr>
 <!-- Communicating with @Output - https://angular.dev/tutorials/learn-angular/9-output -->
 <app-child (addItemEvent)="addItem($event)" />
 <p>🐢 all the way down {{ items.length }}</p>
+<hr>
 <!-- Deferrable views - https://angular.dev/tutorials/learn-angular/10-deferrable-views -->
 <div>
   <h1>How I feel about Angular</h1>
@@ -99,5 +101,17 @@
   <p>Loading comments...</p>
   }
 </div>
+<hr>
+<!-- Enabling routing - https://angular.dev/tutorials/learn-angular/12-enable-routing -->
+<nav>
+  <a href="/">Home</a>
+  |
+  <a href="/user">User</a>
+  |
+  <a href="/child">Child</a>
+  |
+  <a href="/comments">Comments</a>
+</nav>
+<hr>
 <!-- initial commit -->
 <router-outlet />

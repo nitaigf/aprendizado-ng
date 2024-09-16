@@ -36,4 +36,5 @@ export class AppComponent {
   }
   // Deferrable views (interação com o component comments)
   // Optimizing images (interação com o component user)
+  // Enabling rounting (já feito quando o projeto é standalone=false, caso contrério, é necessário fazer a configuração manualmente)
 }
