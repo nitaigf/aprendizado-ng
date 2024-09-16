@@ -34,8 +34,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - [x] [Anatomy of a Component](https://github.com/nitaigf/aprendizado-ng/tree/17c5353e8cdf7ffd19bfd7821186ccd9aeed6115)
 - [x] [Updating the component](https://github.com/nitaigf/aprendizado-ng/tree/38385e9c54723fa458eec3c6afb47c489f6dcba0)
 - [x] [Component composition](https://github.com/nitaigf/aprendizado-ng/tree/1703febe3e6b9eb2c5276d535006d17606fa8b66)
-- [x] [Control flow in components - @if]()
-- [ ] Control flow - @for
+- [x] [Control flow in components - @if](https://github.com/nitaigf/aprendizado-ng/tree/1e9e31ee4de2e5d4705965e4ac9ae0aa4f9d1076)
+- [x] [Control flow - @for]()
 - [ ] Property Binding
 - [ ] Event handling
 - [ ] Communicating with @Input

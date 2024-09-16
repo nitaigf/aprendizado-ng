@@ -1,18 +1,30 @@
+<!-- Introduction - https://angular.dev/tutorials/learn-angular -->
 <h1>Welcome to Angular!</h1>
 <p><strong>{{ title }}</strong></p>
 <hr>
+<!-- Anatomy of a Component - https://angular.dev/tutorials/learn-angular/1-components-in-angular -->
 <p>Hello Universe</p>
 <hr>
+<!-- Updating the component - https://angular.dev/tutorials/learn-angular/2-updating-the-component-class
+ -->
 <p><em>{{ city }}</em>, {{ 1 + 1 }}</p>
 <hr>
+<!-- Component composition - https://angular.dev/tutorials/learn-angular/3-composing-components -->
 <section>
   <app-user />
 </section>
 <hr>
+<!-- Control flow in components - @if - https://angular.dev/tutorials/learn-angular/4-control-flow-if -->
 @if (isServerRunning) {
 <span>Yes, the server is running</span>
 } @else {
 <span>No, the server is not running</span>
 }
 <hr>
+<!-- Control flow - @for - https://angular.dev/tutorials/learn-angular/5-control-flow-for -->
+@for(user of users; track user.id) {
+<p>{{ user.name }}</p>
+}
+<hr>
+<!-- initial commit -->
 <router-outlet />
