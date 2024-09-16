@@ -30,29 +30,29 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Roadmap - v.0.0.1
 
-- [] [Introduction](https://github.com/nitaigf/aprendizado-ng/tree/dd517a3b8d97b311e0a21cdfe59a98187d9fc4e5)
-- [] Anatomy of a Component
-- [] Updating the component
-- [] Component composition
-- [] Control flow in components - @if
-- [] Control flow - @for
-- [] Property Binding
-- [] Event handling
-- [] Communicating with @Input
-- [] Communicating with @Output
-- [] Deferrable views
-- [] Optimizing images
-- [] Enabling routing
-- [] Define a route
-- [] Link to a route with RouterLink
-- [] Forms
-- [] Getting form control values
-- [] Reactive forms
-- [] Validating forms
-- [] Creating an injectable service
-- [] Inject-based dependency injection
-- [] Constructor-based dependency injection
-- [] Pipes
-- [] Formatting data with pipes
-- [] Create a pipe
-- [] Next steps
+- [x] [Introduction](https://github.com/nitaigf/aprendizado-ng/tree/dd517a3b8d97b311e0a21cdfe59a98187d9fc4e5)
+- [ ] Anatomy of a Component
+- [ ] Updating the component
+- [ ] Component composition
+- [ ] Control flow in components - @if
+- [ ] Control flow - @for
+- [ ] Property Binding
+- [ ] Event handling
+- [ ] Communicating with @Input
+- [ ] Communicating with @Output
+- [ ] Deferrable views
+- [ ] Optimizing images
+- [ ] Enabling routing
+- [ ] Define a route
+- [ ] Link to a route with RouterLink
+- [ ] Forms
+- [ ] Getting form control values
+- [ ] Reactive forms
+- [ ] Validating forms
+- [ ] Creating an injectable service
+- [ ] Inject-based dependency injection
+- [ ] Constructor-based dependency injection
+- [ ] Pipes
+- [ ] Formatting data with pipes
+- [ ] Create a pipe
+- [ ] Next steps
