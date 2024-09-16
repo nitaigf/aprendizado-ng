@@ -9,4 +9,10 @@
   <app-user />
 </section>
 <hr>
+@if (isServerRunning) {
+<span>Yes, the server is running</span>
+} @else {
+<span>No, the server is not running</span>
+}
+<hr>
 <router-outlet />
