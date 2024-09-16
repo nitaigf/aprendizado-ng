@@ -8,33 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   // initial commit / Introduction
   title = 'aprendizado-ng';
-  // Updating the component
-  city = 'San Francisco';
-  // Component composition (criação do component user)
-  // Control flow in components - @if
-  isServerRunning = true;
-  // Control flow - @for
-  users = [
-    { id: 0, name: 'Sarah' },
-    { id: 1, name: 'Amy' },
-    { id: 2, name: 'Rachel' },
-    { id: 3, name: 'Jessica' },
-    { id: 4, name: 'Poornima' },
-  ];
-  // Property binding
-  isEditable = true;
-  // Event handling
-  message = '';
-  onMouseOver() {
-    this.message = 'Way to go 🚀';
-  }
-  // Communicating with @Input (interação com o component user)
-  // Communicating with @Output (interação com o component child)
-  items = new Array();
-  addItem(item: string) {
-    this.items.push(item);
-  }
-  // Deferrable views (interação com o component comments)
-  // Optimizing images (interação com o component user)
-  // Enabling rounting (já feito quando o projeto é standalone=false, caso contrério, é necessário fazer a configuração manualmente)
 }

@@ -1,0 +1,15 @@
+<h2>{{ title }}</h2>
+@if (comment && linkUrl) {
+<blockquote>{{ comment }}</blockquote>
+<a [href]="linkUrl">Link para a lição no site do Angular!</a>
+}
+@else if (comment && !linkUrl) {
+<blockquote>{{ comment }}</blockquote>
+}
+@else if (!comment && linkUrl) {
+<a [href]="linkUrl">Link para a lição no site do Angular!</a>
+}
+@else {
+<p>There is no comment or link</p>
+}
+<hr>

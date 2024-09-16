@@ -1,18 +1,6 @@
 @if (name) {
 <!-- Communicating with @Input - https://angular.dev/tutorials/learn-angular/8-input -->
 <p>The user's name is {{ name }}</p>
-<!-- Optimizing images - https://angular.dev/tutorials/learn-angular/11-optimizing-images -->
-<p>Preferred Framework:</p>
-<ul>
-  <li>
-    Static Image:
-    <img ngSrc="/assets/logo.png" alt="Angular logo" width="32" height="32" priority />
-  </li>
-  <li>
-    Dynamic Image:
-    <img [ngSrc]="logoUrl" [alt]="logoAlt" width="32" height="32" />
-  </li>
-</ul>
 } @else {
 <!-- Component composition - https://angular.dev/tutorials/learn-angular/3-composing-components -->
 <p>Username: {{ username }}</p>

@@ -1,0 +1,7 @@
+<!-- Property binding - https://angular.dev/tutorials/learn-angular/6-property-binding -->
+<p>Este div é editável</p>
+<div class="editable" [contentEditable]="isEditable" [textContent]="divValue" #editableDiv
+  (blur)="divValue=editableDiv.innerText">
+  {{ divValue }}</div>
+<p>Seu valor digitado é: {{ divValue }}</p>
+<hr>
