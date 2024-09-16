@@ -20,8 +20,9 @@ import { Lesson09Component } from './lesson09/lesson09.component';
 import { Lesson10Component } from './lesson10/lesson10.component';
 import { Lesson11Component } from './lesson11/lesson11.component';
 import { NavComponent } from './nav/nav.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Lesson15Component } from './lesson15/lesson15.component';
+import { Lesson17Component } from './lesson17/lesson17.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,8 @@ import { Lesson15Component } from './lesson15/lesson15.component';
     NavComponent,
     // Forms - https://angular.dev/tutorials/learn-angular/15-forms
     Lesson15Component,
+    // Reactive forms - https://angular.dev/tutorials/learn-angular/17-reactive-forms
+    Lesson17Component,
   ],
   imports: [
     BrowserModule,
@@ -65,7 +68,9 @@ import { Lesson15Component } from './lesson15/lesson15.component';
     // Optimizing images - https://angular.dev/tutorials/learn-angular/11-optimizing-images
     NgOptimizedImage,
     // Forms - https://angular.dev/tutorials/learn-angular/15-forms
-    FormsModule
+    FormsModule,
+    // Reactive forms - https://angular.dev/tutorials/learn-angular/17-reactive-forms
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration(),

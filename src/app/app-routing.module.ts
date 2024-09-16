@@ -16,6 +16,7 @@ import { Lesson09Component } from './lesson09/lesson09.component';
 import { Lesson10Component } from './lesson10/lesson10.component';
 import { Lesson11Component } from './lesson11/lesson11.component';
 import { Lesson15Component } from './lesson15/lesson15.component';
+import { Lesson17Component } from './lesson17/lesson17.component';
 
 // Enabling routing - https://angular.dev/tutorials/learn-angular/12-enable-routing
 const routes: Routes = [
@@ -116,6 +117,13 @@ const routes: Routes = [
     data: { title: 'Lesson 15/16 - Forms', lessonUrls: ['https://angular.dev/tutorials/learn-angular/15-forms', 'https://angular.dev/tutorials/learn-angular/16-form-control-values'], comment: 'Esta página é o resultado das lições 15 e 16' },
     component: Lesson15Component,
   },
+  // Reactive forms - https://angular.dev/tutorials/learn-angular/17-reactive-forms
+  {
+    path: 'lesson17',
+    title: 'Lesson 17 - Reactive forms',
+    data: { title: 'Lesson 17 - Reactive forms', lessonUrls: ['https://angular.dev/tutorials/learn-angular/17-reactive-forms'] },
+    component: Lesson17Component,
+  }
   // -- COMPONENTS
   // {
   //   path: 'user',

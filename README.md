@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ---
 
-## Roadmap - v.0.0.16
+## Roadmap - v.0.0.17
 
 - [x] [Introduction](https://github.com/nitaigf/aprendizado-ng/tree/e4a652a224baf26f0e719ba1793853d5839e0151) - v.0.0.0
 - [x] [Anatomy of a Component](https://github.com/nitaigf/aprendizado-ng/tree/17c5353e8cdf7ffd19bfd7821186ccd9aeed6115) - v.0.0.1
@@ -46,8 +46,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - [x] [Define a route](https://github.com/nitaigf/aprendizado-ng/tree/ea5419102aa097a792a0b6b0c93f51322a0e09bf) - v.0.0.13
 - [x] [Link to a route with RouterLink](https://github.com/nitaigf/aprendizado-ng/tree/04782aa14d063df21f7941c7dcbd852a88ce968d) - v.0.0.14
 - [x] [Forms](https://github.com/nitaigf/aprendizado-ng/tree/aef68f391daa6a32b34a55d2fbd4c153dba7e30f) - v.0.0.15
-- [x] [Getting form control values]() - v.0.0.16
-- [ ] [Reactive forms]() - v.0.0.17
+- [x] [Getting form control values](https://github.com/nitaigf/aprendizado-ng/tree/d8c4f30aa86a2b46d521b1e1806e1769d058ff15) - v.0.0.16
+- [x] [Reactive forms]() - v.0.0.17
 - [ ] [Validating forms]() - v.0.0.18
 - [ ] [Creating an injectable service]() - v.0.0.19
 - [ ] [Inject-based dependency injection]() - v.0.0.20
