@@ -32,8 +32,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - [x] [Introduction](https://github.com/nitaigf/aprendizado-ng/tree/dd517a3b8d97b311e0a21cdfe59a98187d9fc4e5)
 - [x] [Anatomy of a Component](https://github.com/nitaigf/aprendizado-ng/tree/17c5353e8cdf7ffd19bfd7821186ccd9aeed6115)
-- [x] [Updating the component]()
-- [ ] Component composition
+- [x] [Updating the component](https://github.com/nitaigf/aprendizado-ng/tree/38385e9c54723fa458eec3c6afb47c489f6dcba0)
+- [x] [Component composition]()
 - [ ] Control flow in components - @if
 - [ ] Control flow - @for
 - [ ] Property Binding
