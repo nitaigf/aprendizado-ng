@@ -17,6 +17,7 @@ import { Lesson10Component } from './lesson10/lesson10.component';
 import { Lesson11Component } from './lesson11/lesson11.component';
 import { Lesson15Component } from './lesson15/lesson15.component';
 import { Lesson17Component } from './lesson17/lesson17.component';
+import { Lesson19Component } from './lesson19/lesson19.component';
 
 // Enabling routing - https://angular.dev/tutorials/learn-angular/12-enable-routing
 const routes: Routes = [
@@ -186,7 +187,18 @@ const routes: Routes = [
       ],
     },
     component: Lesson17Component,
-  }
+  },
+  // Creating an injectable service - https://angular.dev/tutorials/learn-angular/19-creating-an-injectable-service
+  {
+    path: 'lesson19',
+    title: 'Lesson 19 - Creating an injectable service',
+    data: {
+      title: 'Lesson 19 - Creating an injectable service',
+      comment: 'Esta página é o resultado da lição 19',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/19-creating-an-injectable-service']
+    },
+    component: Lesson19Component,
+  },
   // -- COMPONENTS
   // {
   //   path: 'user',

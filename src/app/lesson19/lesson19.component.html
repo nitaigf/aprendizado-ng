@@ -1,0 +1,5 @@
+<!-- Creating an injectable service - https://angular.dev/tutorials/learn-angular/19-creating-an-injectable-service -->
+<!-- <p> {{ carService.getCars() }} </p> -->
+@for(car of carService.getCars(); track car) {
+<p>{{ car }}</p>
+}

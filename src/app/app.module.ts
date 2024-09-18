@@ -23,6 +23,7 @@ import { NavComponent } from './nav/nav.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Lesson15Component } from './lesson15/lesson15.component';
 import { Lesson17Component } from './lesson17/lesson17.component';
+import { Lesson19Component } from './lesson19/lesson19.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { Lesson17Component } from './lesson17/lesson17.component';
     Lesson15Component,
     // Reactive forms - https://angular.dev/tutorials/learn-angular/17-reactive-forms
     Lesson17Component,
+    Lesson19Component,
   ],
   imports: [
     BrowserModule,
