@@ -7,7 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class UserComponent {
   // Component composition (criação do component user)
-  username = 'youngTech';
+  // Pipes - https://angular.dev/tutorials/learn-angular/22-pipes
+  username = 'yOunGTECH';
   // Communicating with @Input (interação com o component user)
   @Input() name = '';
 }

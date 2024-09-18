@@ -3,5 +3,6 @@
 <p>The user's name is {{ name }}</p>
 } @else {
 <!-- Component composition - https://angular.dev/tutorials/learn-angular/3-composing-components -->
-<span>Username: {{ username }}</span>
+<!-- Pipes - https://angular.dev/tutorials/learn-angular/22-pipes -->
+<span>Username: {{ username | lowercase }}</span>
 }

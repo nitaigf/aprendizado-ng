@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { ChildComponent } from './child/child.component';
 import { CommentsComponent } from './comments/comments.component';
-import { NgOptimizedImage } from '@angular/common';
+import { LowerCasePipe, NgOptimizedImage } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { Lesson01Component } from './lesson01/lesson01.component';
 import { Lesson02Component } from './lesson02/lesson02.component';
@@ -72,7 +72,9 @@ import { Lesson19Component } from './lesson19/lesson19.component';
     // Forms - https://angular.dev/tutorials/learn-angular/15-forms
     FormsModule,
     // Reactive forms - https://angular.dev/tutorials/learn-angular/17-reactive-forms
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    // Pipes - https://angular.dev/tutorials/learn-angular/22-pipes
+    LowerCasePipe
   ],
   providers: [
     provideClientHydration(),

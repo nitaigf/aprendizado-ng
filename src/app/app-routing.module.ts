@@ -60,13 +60,17 @@ const routes: Routes = [
     component: Lesson02Component,
   },
   // Component composition - https://angular.dev/tutorials/learn-angular/3-composing-components
+  // Pipes - https://angular.dev/tutorials/learn-angular/22-pipes
   {
     path: 'lesson03',
-    title: 'Lesson 3 - Component composition',
+    title: 'Lesson 3/22 - Component composition',
     data: {
-      title: 'Lesson 3 - Component composition',
-      comment: 'Esta página é o resultado da lição 03',
-      lessonUrls: ['https://angular.dev/tutorials/learn-angular/3-composing-components']
+      title: 'Lesson 3/22 - Component composition',
+      comment: 'Esta página é o resultado da lição 03 e 22',
+      lessonUrls: [
+        'https://angular.dev/tutorials/learn-angular/3-composing-components',
+        'https://angular.dev/tutorials/learn-angular/22-pipes'
+      ]
     },
     component: Lesson03Component,
   },
@@ -195,7 +199,7 @@ const routes: Routes = [
     path: 'lesson19',
     title: 'Lesson 19/20/21 - Creating an injectable service',
     data: {
-      title: 'Lesson 19/20 - Creating an injectable service',
+      title: 'Lesson 19/20/21 - Creating an injectable service',
       comment: 'Esta página é o resultado da lição 19, 20 e 21',
       lessonUrls: [
         'https://angular.dev/tutorials/learn-angular/19-creating-an-injectable-service',
