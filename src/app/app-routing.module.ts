@@ -29,7 +29,10 @@ const routes: Routes = [
   {
     path: 'home',
     title: 'App Home Page',
-    data: { title: 'App Home Page', comment: 'Essa página e o componente nav são o resultado da reorganização do código-fonte feito após as liçoes 12 e 13, juntamente com o ajuste para uso do RouterLink da lição 14.' },
+    data: {
+      title: 'App Home Page',
+      comment: 'Essa página e o componente nav são o resultado da reorganização do código-fonte feito após as liçoes 12 e 13, juntamente com o ajuste para uso do RouterLink da lição 14.'
+    },
     component: HomeComponent,
   },
   // -- LESSONS
@@ -37,91 +40,151 @@ const routes: Routes = [
   {
     path: 'lesson01',
     title: 'Lesson 1 - Anatomy of a Component',
-    data: { title: 'Lesson 1 - Anatomy of a Component', lessonUrls: ['https://angular.dev/tutorials/learn-angular/1-components-in-angular'] },
+    data: {
+      title: 'Lesson 1 - Anatomy of a Component',
+      comment: 'Esta página é o resultado da lição 01',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/1-components-in-angular']
+    },
     component: Lesson01Component,
   },
   // Updating the component - https://angular.dev/tutorials/learn-angular/2-updating-the-component-class
   {
     path: 'lesson02',
     title: 'Lesson 2 - Updating the component',
-    data: { title: 'Lesson 2 - Updating the component class', lessonUrls: ['https://angular.dev/tutorials/learn-angular/2-updating-the-component-class'] },
+    data: {
+      title: 'Lesson 2 - Updating the component class',
+      comment: 'Esta página é o resultado da lição 02',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/2-updating-the-component-class']
+    },
     component: Lesson02Component,
   },
   // Component composition - https://angular.dev/tutorials/learn-angular/3-composing-components
   {
     path: 'lesson03',
     title: 'Lesson 3 - Component composition',
-    data: { title: 'Lesson 3 - Component composition', lessonUrls: ['https://angular.dev/tutorials/learn-angular/3-composing-components'] },
+    data: {
+      title: 'Lesson 3 - Component composition',
+      comment: 'Esta página é o resultado da lição 03',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/3-composing-components']
+    },
     component: Lesson03Component,
   },
   // Control flow in components - @if - https://angular.dev/tutorials/learn-angular/4-control-flow-if
   {
     path: 'lesson04',
     title: 'Lesson 4 - Control flow in components - @if',
-    data: { title: 'Lesson 4 - Control flow in components - @if', lessonUrls: ['https://angular.dev/tutorials/learn-angular/4-control-flow-if'] },
+    data: {
+      title: 'Lesson 4 - Control flow in components - @if',
+      comment: 'Esta página é o resultado da lição 04',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/4-control-flow-if']
+    },
     component: Lesson04Component,
   },
   // Control flow - @for - https://angular.dev/tutorials/learn-angular/5-control-flow-for
   {
     path: 'lesson05',
     title: 'Lesson 5 - Control flow - @for',
-    data: { title: 'Lesson 5 - Control flow - @for', lessonUrls: ['https://angular.dev/tutorials/learn-angular/5-control-flow-for'] },
+    data: {
+      title: 'Lesson 5 - Control flow - @for',
+      comment: 'Esta página é o resultado da lição 05',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/5-control-flow-for']
+    },
     component: Lesson05Component,
   },
   // Property binding - https://angular.dev/tutorials/learn-angular/6-property-binding
   {
     path: 'lesson06',
     title: 'Lesson 6 - Property binding',
-    data: { title: 'Lesson 6 - Property binding', lessonUrls: ['https://angular.dev/tutorials/learn-angular/6-property-binding'] },
+    data: {
+      title: 'Lesson 6 - Property binding',
+      comment: 'Esta página é o resultado da lição 06',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/6-property-binding']
+    },
     component: Lesson06Component,
   },
   // Event handling - https://angular.dev/tutorials/learn-angular/7-event-handling
   {
     path: 'lesson07',
     title: 'Lesson 7 - Event handling',
-    data: { title: 'Lesson 7 - Event handling', lessonUrls: ['https://angular.dev/tutorials/learn-angular/7-event-handling'] },
+    data: {
+      title: 'Lesson 7 - Event handling',
+      comment: 'Esta página é o resultado da lição 07',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/7-event-handling']
+    },
     component: Lesson07Component,
   },
   // Communicating with @input - https://angular.dev/tutorials/learn-angular/8-input
   {
     path: 'lesson08',
     title: 'Lesson 8 - Communicating with @input',
-    data: { title: 'Lesson 8 - Communicating with @input', lessonUrls: ['https://angular.dev/tutorials/learn-angular/8-input'] },
+    data: {
+      title: 'Lesson 8 - Communicating with @input',
+      comment: 'Esta página é o resultado da lição 08',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/8-input']
+    },
     component: Lesson08Component,
   },
   // Communicating with @output - https://angular.dev/tutorials/learn-angular/9-output
   {
     path: 'lesson09',
     title: 'Lesson 9 - Communicating with @output',
-    data: { title: 'Lesson 9 - Communicating with @output', lessonUrls: ['https://angular.dev/tutorials/learn-angular/9-output'] },
+    data: {
+      title: 'Lesson 9 - Communicating with @output',
+      comment: 'Esta página é o resultado da lição 09',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/9-output']
+    },
     component: Lesson09Component,
   },
   // Deferrable views - https://angular.dev/tutorials/learn-angular/10-deferrable-views
   {
     path: 'lesson10',
     title: 'Lesson 10 - Deferrable views',
-    data: { title: 'Lesson 10 - Deferrable views', lessonUrls: ['https://angular.dev/tutorials/learn-angular/10-deferrable-views'] },
+    data: {
+      title: 'Lesson 10 - Deferrable views',
+      comment: 'Esta página é o resultado da lição 10',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/10-deferrable-views']
+    },
     component: Lesson10Component,
   },
   // Optimizing images - https://angular.dev/tutorials/learn-angular/11-optimizing-images
   {
     path: 'lesson11',
     title: 'Lesson 11 - Optimizing images',
-    data: { title: 'Lesson 11 - Optimizing images', lessonUrls: ['https://angular.dev/tutorials/learn-angular/11-optimizing-images'] },
+    data: {
+      title: 'Lesson 11 - Optimizing images',
+      comment: 'Esta página é o resultado da lição 11',
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/11-optimizing-images']
+    },
     component: Lesson11Component,
   },
   // Forms - https://angular.dev/tutorials/learn-angular/15-forms
+  // Getting form control values - https://angular.dev/tutorials/learn-angular/16-form-control-values
   {
     path: 'lesson15',
     title: 'Lesson 15/16 - Forms',
-    data: { title: 'Lesson 15/16 - Forms', lessonUrls: ['https://angular.dev/tutorials/learn-angular/15-forms', 'https://angular.dev/tutorials/learn-angular/16-form-control-values'], comment: 'Esta página é o resultado das lições 15 e 16' },
+    data: {
+      title: 'Lesson 15/16 - Forms',
+      comment: 'Esta página é o resultado das lições 15 e 16',
+      lessonUrls: [
+        'https://angular.dev/tutorials/learn-angular/15-forms',
+        'https://angular.dev/tutorials/learn-angular/16-form-control-values'
+      ],
+    },
     component: Lesson15Component,
   },
   // Reactive forms - https://angular.dev/tutorials/learn-angular/17-reactive-forms
+  // Validating forms - https://angular.dev/tutorials/learn-angular/18-forms-validation
   {
     path: 'lesson17',
-    title: 'Lesson 17 - Reactive forms',
-    data: { title: 'Lesson 17 - Reactive forms', lessonUrls: ['https://angular.dev/tutorials/learn-angular/17-reactive-forms'] },
+    title: 'Lesson 17/18 - Reactive forms',
+    data: {
+      title: 'Lesson 17/18 - Reactive forms',
+      comment: 'Esta página é o resultado das lições 17 e 18',
+      lessonUrls: [
+        'https://angular.dev/tutorials/learn-angular/17-reactive-forms',
+        'https://angular.dev/tutorials/learn-angular/18-forms-validation'
+      ],
+    },
     component: Lesson17Component,
   }
   // -- COMPONENTS
