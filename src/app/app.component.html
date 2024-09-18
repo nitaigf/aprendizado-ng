@@ -1,8 +1,21 @@
-<!-- Introduction - https://angular.dev/tutorials/learn-angular -->
-<h1>Welcome to Angular!</h1>
-<p><strong>{{ title }}</strong></p>
-<hr>
-<!-- Define a route - https://angular.dev/tutorials/learn-angular/13-define-a-route -->
-<app-nav></app-nav>
-<!-- initial commit -->
-<router-outlet />
+<!-- Next steps - Add content of old Angular 17 Tutorials - Your first Angular app - https://v17.angular.io/tutorial/first-app -->
+<main>
+  <header class="brand-name">
+    <a [routerLink]="['/']">
+      <header class="brand-name">
+        <img class="brand-logo" src="/assets/logo.png" alt="logo" aria-hidden="true">
+      </header>
+    </a>
+    <!-- Introduction - https://angular.dev/tutorials/learn-angular -->
+    <h1>Welcome to Angular!</h1>
+    <p><strong>{{ title }}</strong></p>
+    <hr>
+  </header>
+  <!-- Define a route - https://angular.dev/tutorials/learn-angular/13-define-a-route -->
+  <app-nav></app-nav>
+  <section class="content">
+    <!-- initial commit -->
+    <router-outlet />
+    <!-- <app-home></app-home> -->
+  </section>
+</main>

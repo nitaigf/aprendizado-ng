@@ -19,6 +19,7 @@ import { Lesson15Component } from './lesson15/lesson15.component';
 import { Lesson17Component } from './lesson17/lesson17.component';
 import { Lesson19Component } from './lesson19/lesson19.component';
 import { Lesson22Component } from './lesson22/lesson22.component';
+import { DetailsComponent } from './details/details.component';
 
 // Enabling routing - https://angular.dev/tutorials/learn-angular/12-enable-routing
 const routes: Routes = [
@@ -36,6 +37,12 @@ const routes: Routes = [
       comment: 'Essa página e o componente nav são o resultado da reorganização do código-fonte feito após as liçoes 12 e 13, juntamente com o ajuste para uso do RouterLink da lição 14.'
     },
     component: HomeComponent,
+  },
+  // Next steps - Add content of old Angular 17 Tutorials - Your first Angular app - https://v17.angular.io/tutorial/first-app
+  {
+    path: 'details/:id',
+    component: DetailsComponent,
+    title: 'Home details'
   },
   // -- LESSONS
   // Anatomy of a Component - https://angular.dev/tutorials/learn-angular/1-components-in-angular

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { BrowserModule, provideClientHydration, provideProtractorTestingSupport } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,6 +26,9 @@ import { Lesson17Component } from './lesson17/lesson17.component';
 import { Lesson19Component } from './lesson19/lesson19.component';
 import { Lesson22Component } from './lesson22/lesson22.component';
 import { ReversePipe } from './reverse.pipe';
+import { HousingLocationComponent } from './housing-location/housing-location.component';
+import { DetailsComponent } from './details/details.component';
+import { provideRouter } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -67,6 +70,8 @@ import { ReversePipe } from './reverse.pipe';
     Lesson22Component,
     // Create a pipe - https://angular.dev/tutorials/learn-angular/24-create-a-pipe
     ReversePipe,
+    HousingLocationComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
@@ -85,7 +90,9 @@ import { ReversePipe } from './reverse.pipe';
   ],
   providers: [
     provideClientHydration(),
-    // provideImgixLoader('http://localhost:4200/')
+    // provideImgixLoader('http://localhost:4200/'),
+    provideProtractorTestingSupport(),
+    // provideRouter(routeConfig)
   ],
   bootstrap: [AppComponent]
 })
