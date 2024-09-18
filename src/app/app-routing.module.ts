@@ -18,6 +18,7 @@ import { Lesson11Component } from './lesson11/lesson11.component';
 import { Lesson15Component } from './lesson15/lesson15.component';
 import { Lesson17Component } from './lesson17/lesson17.component';
 import { Lesson19Component } from './lesson19/lesson19.component';
+import { Lesson22Component } from './lesson22/lesson22.component';
 
 // Enabling routing - https://angular.dev/tutorials/learn-angular/12-enable-routing
 const routes: Routes = [
@@ -63,14 +64,11 @@ const routes: Routes = [
   // Pipes - https://angular.dev/tutorials/learn-angular/22-pipes
   {
     path: 'lesson03',
-    title: 'Lesson 3/22 - Component composition',
+    title: 'Lesson 3 - Component composition',
     data: {
-      title: 'Lesson 3/22 - Component composition',
+      title: 'Lesson 3 - Component composition',
       comment: 'Esta página é o resultado da lição 03 e 22',
-      lessonUrls: [
-        'https://angular.dev/tutorials/learn-angular/3-composing-components',
-        'https://angular.dev/tutorials/learn-angular/22-pipes'
-      ]
+      lessonUrls: ['https://angular.dev/tutorials/learn-angular/3-composing-components']
     },
     component: Lesson03Component,
   },
@@ -209,6 +207,22 @@ const routes: Routes = [
     },
     component: Lesson19Component,
   },
+  // Pipes - https://angular.dev/tutorials/learn-angular/22-pipes
+  // Formatting data with pipes - https://angular.dev/tutorials/learn-angular/23-pipes-format-data
+  {
+    path: 'lesson22',
+    title: 'Lesson 22/23 - Pipes',
+    data: {
+      title: 'Lesson 22/23 - Pipes',
+      comment: 'Esta página é o resultado das lições 22 e 23',
+      lessonUrls: [
+        'https://angular.dev/tutorials/learn-angular/22-pipes',
+        'https://angular.dev/tutorials/learn-angular/23-pipes-format-data'
+      ]
+    },
+    component: Lesson22Component,
+  }
+
   // -- COMPONENTS
   // {
   //   path: 'user',

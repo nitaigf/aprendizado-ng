@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { ChildComponent } from './child/child.component';
 import { CommentsComponent } from './comments/comments.component';
-import { LowerCasePipe, NgOptimizedImage } from '@angular/common';
+import { CurrencyPipe, DatePipe, DecimalPipe, LowerCasePipe, NgOptimizedImage } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { Lesson01Component } from './lesson01/lesson01.component';
 import { Lesson02Component } from './lesson02/lesson02.component';
@@ -24,6 +24,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Lesson15Component } from './lesson15/lesson15.component';
 import { Lesson17Component } from './lesson17/lesson17.component';
 import { Lesson19Component } from './lesson19/lesson19.component';
+import { Lesson22Component } from './lesson22/lesson22.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { Lesson19Component } from './lesson19/lesson19.component';
     // Reactive forms - https://angular.dev/tutorials/learn-angular/17-reactive-forms
     Lesson17Component,
     Lesson19Component,
+    Lesson22Component,
   ],
   imports: [
     BrowserModule,
@@ -74,7 +76,9 @@ import { Lesson19Component } from './lesson19/lesson19.component';
     // Reactive forms - https://angular.dev/tutorials/learn-angular/17-reactive-forms
     ReactiveFormsModule,
     // Pipes - https://angular.dev/tutorials/learn-angular/22-pipes
-    LowerCasePipe
+    LowerCasePipe,
+    // Formatting data with pipes - https://angular.dev/tutorials/learn-angular/23-pipes-format-data
+    DecimalPipe, DatePipe, CurrencyPipe
   ],
   providers: [
     provideClientHydration(),
