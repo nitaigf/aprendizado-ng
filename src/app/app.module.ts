@@ -25,6 +25,7 @@ import { Lesson15Component } from './lesson15/lesson15.component';
 import { Lesson17Component } from './lesson17/lesson17.component';
 import { Lesson19Component } from './lesson19/lesson19.component';
 import { Lesson22Component } from './lesson22/lesson22.component';
+import { ReversePipe } from './reverse.pipe';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,8 @@ import { Lesson22Component } from './lesson22/lesson22.component';
     Lesson17Component,
     Lesson19Component,
     Lesson22Component,
+    // Create a pipe - https://angular.dev/tutorials/learn-angular/24-create-a-pipe
+    ReversePipe,
   ],
   imports: [
     BrowserModule,

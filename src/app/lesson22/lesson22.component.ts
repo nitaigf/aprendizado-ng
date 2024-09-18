@@ -12,4 +12,6 @@ export class Lesson22Component {
   num = 103.1234;
   birthday = new Date(2023, 3, 2);
   cost = 4560.34;
+  // Create a pipe - https://angular.dev/tutorials/learn-angular/24-create-a-pipe
+  word = 'You are a champion';
 }

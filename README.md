@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ---
 
-## Roadmap - v.0.0.23
+## Roadmap - v.0.0.24
 
 - [x] [Introduction](https://github.com/nitaigf/aprendizado-ng/tree/e4a652a224baf26f0e719ba1793853d5839e0151) - v.0.0.0
 - [x] [Anatomy of a Component](https://github.com/nitaigf/aprendizado-ng/tree/17c5353e8cdf7ffd19bfd7821186ccd9aeed6115) - v.0.0.1
@@ -53,6 +53,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - [x] [Inject-based dependency injection](https://github.com/nitaigf/aprendizado-ng/tree/21bc55f010c13cf2eebf1afbb14afcb73a7fd2fb) - v.0.0.20
 - [x] [Constructor-based dependency injection](https://github.com/nitaigf/aprendizado-ng/tree/138944a96ea7cf9ba543283f2b090d47eef9e106) - v.0.0.21
 - [x] [Pipes](https://github.com/nitaigf/aprendizado-ng/tree/1eda7f1f07abe3a84ffd5fb02044fea860249fe1) - v.0.0.22
-- [x] [Formatting data with pipes]() - v.0.0.23
-- [ ] [Create a pipe]() - v.0.0.24
+- [x] [Formatting data with pipes](https://github.com/nitaigf/aprendizado-ng/tree/db43b2babb56119b1fd28db00ecb1b78f2761ba5) - v.0.0.23
+- [x] [Create a pipe]() - v.0.0.24
 - [ ] [Next steps]() - v.0.0.25

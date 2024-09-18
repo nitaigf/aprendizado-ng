@@ -209,15 +209,17 @@ const routes: Routes = [
   },
   // Pipes - https://angular.dev/tutorials/learn-angular/22-pipes
   // Formatting data with pipes - https://angular.dev/tutorials/learn-angular/23-pipes-format-data
+  // Create a pipe - https://angular.dev/tutorials/learn-angular/24-create-a-pipe
   {
     path: 'lesson22',
-    title: 'Lesson 22/23 - Pipes',
+    title: 'Lesson 22/23/24 - Pipes',
     data: {
-      title: 'Lesson 22/23 - Pipes',
-      comment: 'Esta página é o resultado das lições 22 e 23',
+      title: 'Lesson 22/23/24 - Pipes',
+      comment: 'Esta página é o resultado das lições 22, 23 e 24',
       lessonUrls: [
         'https://angular.dev/tutorials/learn-angular/22-pipes',
-        'https://angular.dev/tutorials/learn-angular/23-pipes-format-data'
+        'https://angular.dev/tutorials/learn-angular/23-pipes-format-data',
+        'https://angular.dev/tutorials/learn-angular/24-create-a-pipe'
       ]
     },
     component: Lesson22Component,

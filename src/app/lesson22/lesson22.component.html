@@ -1,8 +1,10 @@
 <!-- Pipes - https://angular.dev/tutorials/learn-angular/22-pipes -->
-<span>Text: {{ text | lowercase }}</span>
+<p>Text: {{ text | lowercase }}</p>
 <!-- Formatting data with pipes - https://angular.dev/tutorials/learn-angular/23-pipes-format-data -->
 <ul>
   <li>Number with "decimal" {{ num | number : '3.2-2' }}</li>
   <li>Date with "date" {{ birthday | date : 'medium' }}</li>
   <li>Currency with "currency" {{ cost | currency }}</li>
 </ul>
+<!-- Create a pipe - https://angular.dev/tutorials/learn-angular/24-create-a-pipe -->
+<p>Reverse Machine: {{ word | reverse }}</p>
