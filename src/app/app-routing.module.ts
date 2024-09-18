@@ -189,15 +189,18 @@ const routes: Routes = [
     component: Lesson17Component,
   },
   // Creating an injectable service - https://angular.dev/tutorials/learn-angular/19-creating-an-injectable-service
+  // Inject-based dependency injection - https://angular.dev/tutorials/learn-angular/20-inject-based-di
+  // Constructor-based dependency injection - https://angular.dev/tutorials/learn-angular/21-constructor-based-di
   {
     path: 'lesson19',
-    title: 'Lesson 19/20 - Creating an injectable service',
+    title: 'Lesson 19/20/21 - Creating an injectable service',
     data: {
       title: 'Lesson 19/20 - Creating an injectable service',
-      comment: 'Esta página é o resultado da lição 19 e 20',
+      comment: 'Esta página é o resultado da lição 19, 20 e 21',
       lessonUrls: [
         'https://angular.dev/tutorials/learn-angular/19-creating-an-injectable-service',
-        'https://angular.dev/tutorials/learn-angular/20-inject-based-di'
+        'https://angular.dev/tutorials/learn-angular/20-inject-based-di',
+        'https://angular.dev/tutorials/learn-angular/21-constructor-based-di'
       ]
     },
     component: Lesson19Component,
