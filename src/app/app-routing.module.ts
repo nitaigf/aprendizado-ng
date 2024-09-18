@@ -40,9 +40,8 @@ const routes: Routes = [
   },
   // Next steps - Add content of old Angular 17 Tutorials - Your first Angular app - https://v17.angular.io/tutorial/first-app
   {
-    path: 'details/:id',
-    component: DetailsComponent,
-    title: 'Home details'
+    path: 'ng17-first-app',
+    loadChildren: () => import('./ng17-first-app/ng17-first-app.module').then(m => m.Ng17FirstAppModule),
   },
   // -- LESSONS
   // Anatomy of a Component - https://angular.dev/tutorials/learn-angular/1-components-in-angular

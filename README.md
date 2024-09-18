@@ -55,6 +55,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - [x] [Pipes](https://github.com/nitaigf/aprendizado-ng/tree/1eda7f1f07abe3a84ffd5fb02044fea860249fe1) - v.0.0.22
 - [x] [Formatting data with pipes](https://github.com/nitaigf/aprendizado-ng/tree/db43b2babb56119b1fd28db00ecb1b78f2761ba5) - v.0.0.23
 - [x] [Create a pipe](https://github.com/nitaigf/aprendizado-ng/tree/19a1a59d41be4b046efcbfd4cca98468e868b6b3) - v.0.0.24
-- [x] [Next steps - Add content of old Angular 17 Tutorials - Your first Angular app]() - v.0.0.25
+- [x] [Next steps - Add content of old Angular 17 Tutorials - Your first Angular app](https://github.com/nitaigf/aprendizado-ng/tree/2c8511eaae0b9bdbb9b78a91c8ab7efc88996902) - v.0.0.25
 - [ ] [Next steps - Add content of old Angular 17 Tutorials - Tour of Heroes]() - v.0.0.26
 - [ ] [Next steps - Add content of old Angular 17 Tutorials - Building a template-driven form]() - v.0.0.27
